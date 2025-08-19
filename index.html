@@ -5,7 +5,6 @@
   <title>how tf you fall for that</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <style>
-    /* plain white bg, centered content */
     html, body {
       margin: 0;
       padding: 0;
@@ -39,13 +38,16 @@
       border: 1px solid #e5e7eb;
       border-radius: 8px;
     }
-    .link {
-      font-size: 14px;
-      margin-top: 6px;
-      word-break: break-all;
-    }
-    .handle {
+    .handle a {
       font-weight: 800;
+      color: #000;
+      text-decoration: none;
+      border-bottom: 2px solid #000;
+      transition: 0.2s;
+    }
+    .handle a:hover {
+      color: #0077ff;
+      border-bottom-color: #0077ff;
     }
   </style>
 </head>
@@ -53,15 +55,19 @@
   <main class="wrap">
     <section class="container" aria-label="meme callout">
       <h1>How tf you fall for that 😂🫵</h1>
-
       <div class="img-box">
-        <img src="https://share.google/WvJRyrsafftvTxdpF" alt="center meme image" />
-        <div class="link">
-          <a href="https://share.google/WvJRyrsafftvTxdpF">https://share.google/WvJRyrsafftvTxdpF</a>
-        </div>
+        <img
+          src="https://media.tenor.com/vZFtbQQ0kiEAAAAM/meme-monkey.gif"
+          alt="side-eye monkey meme"
+        />
       </div>
-
-      <p>Anyways follow me <span class="handle">@rara_codes</span> while ur at it lil dude ☠️</p>
+      <p>
+        Anyways follow me 
+        <span class="handle">
+          <a href="https://instagram.com/rara_codes" target="_blank" rel="noopener">@rara_codes</a>
+        </span> 
+        while ur at it lil dude ☠️
+      </p>
     </section>
   </main>
 </body>
